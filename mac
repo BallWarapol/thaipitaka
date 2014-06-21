@@ -1,0 +1,1 @@
+python ./server.py | safari "http://localhost:16789/cgi-bin/index.py"

@@ -1,0 +1,17 @@
+﻿#กำลังทำ
+-เพิ่ม wrapPali ใน read.py เมื่อ DB รวมสำเร็จ
+-จัดฐานข้อมูลใหม่ให้เป็นรูปแบบที่ถนัดโดยไม่แยกเล่มจากของเดิม แต่ใช้ Structure มาช่วยเรีงข้อมูล
+
+#คิวต่อไป
+-content_db.py for loop over (bottom of page)
+-title ชื่อ page เพื่อง่ายในการ DEV
+-คัดลอกแบบแยก angs,th_sarabunPSK fonts
+-wrapThai
+-convert pali to roman
+-url#head ใน cscd view
+-menu ลอย
+
+#รอมีเวลามากๆ
+-ใส่ sqlite
+-web.py
+-convert pali to lao, cambodia, burmar, cylon, hindy, lanna

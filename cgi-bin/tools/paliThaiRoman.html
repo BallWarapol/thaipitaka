@@ -1,0 +1,82 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0>
+	<COL WIDTH=256*>
+	<TR>
+		<TD WIDTH=100% VALIGN=TOP>
+			<P align=center ><b>โปรแกรมแปลงระหว่างบาลีอักษรโรมัน กับ อักษรไทย<BR></b><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=100% VALIGN=TOP align=center>
+            <P><i>กรอกข้อความในช่องด้านล่าง</i>
+            </P>
+			<P>
+            <textarea cols=100 rows=18 id="rom">
+			</textarea>
+			</P>
+		</TD>
+	</TR>
+		<TR>
+		<TD WIDTH=100% VALIGN=TOP align=center>
+            <P><i><input type=button value="^
+/  |  \
+to Roman
+|
+___" onclick='conv("rom")' /> 
+<input type=button value="___
+|
+to Thai
+\  |  /
+V" onclick='conv("tha")' /></i>
+            </P>
+			<P>
+            <textarea cols=100 rows=18 id="tha">
+			</textarea>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+
+<script>
+function conv (op) {
+	var ip=(op!="tha") ? "tha" : "rom";
+	words=document.getElementById(ip).value;
+	romChars="…pe… a a ā i ī u ū e o k kh g gh ṅ c ch j jh ñ ṭ ṭh ḍ ḍh ṇ t th d dh n p ph b bh m y r l v s h ḷ ṃ".split(" ");
+	thaChars="ฯเปฯ ะ ั า ิ ี ุ ู เ โ ก ข ค ฆ ง จ ฉ ช ฌ ญ ฏ ฐ ฑ ฒ ณ ต ถ ท ธ น ป ผ พ ภ ม ย ร ล ว ส ห ฬ ํ".split(" ");
+	//"ĀāĪīŪūṄṅṂṃÑñṬṭḌḍṆṇḶḷ".split("");
+	
+	if (ip=="tha") {
+		words=words.replace(//gi, "ฐ")
+		.replace(//gi, "ญ")
+		.replace(/([เโ])(.)/gi, "$2$1")
+		.replace(/([ก-ฮ])/gi, "$1ะ")
+		.replace(/ะ([ะาิีุูเโ])/gi, "$1")
+		.replace(/อ(.)/gi, "$1")
+		.replace(/ะฺ/gi, "")
+		.replace(/อ/gi, "");
+	} else {
+		words=words.replace(/ (āīūaiueo)/gi, " อ$1")
+		.replace(/(\w)(\w)/gi, "$1ฺ$1")
+		.replace(/(.h?)([eo])/gi, "$2$1")
+		.replace(/อ(.)/gi, "$1")
+		.replace(/ะฺ/gi, "")
+		.replace(/อ/gi, "");
+	}
+
+	for (var i=0;i<romChars.length;i++) {
+		if(op=="tha") {
+			words=words.replace(eval("/"+escapeRegExp(romChars[i])+"/gi"), thaChars[i]);
+		} else words=words.replace(eval("/"+thaChars[i]+"/gi"), romChars[i]);
+	}
+	document.getElementById(op).value=words;
+}
+
+function escapeRegExp(str) {
+  return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|][NnMmTtDdNnLl]/gi, "\\$&");
+}
+function unescapeRegExp(str) {
+  return str.replace(/\\/gi, "");
+}
+</script>

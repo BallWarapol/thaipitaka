@@ -1,0 +1,257 @@
+body {  margin: 0px  0px; padding: 0px  0px }
+body  {font-family : MS Sans Serif; font-size : 12pt; color : #000000;}
+
+td {font-size : 16pt; font-family : CordiaUPC;  color : #000033;}
+.size3 {font-size : 12pt; font-family : MS Sans Serif;}
+
+A:link {text-decoration: none; color:  gray; }
+A:visited {text-decoration: none; color: #5B92C8;}
+A:active {text-decoration: none; color: #00CCFF; }
+A:hover {text-decoration: none; color: gray; }
+
+.tab {
+	COLOR: #333333; 
+}
+
+#load {
+	position:absolute;
+	left:0;
+	top:50%;
+	width:100%;
+	height:5%;
+	z-index:0;
+}
+#DictShow {
+	position:absolute;
+	right:0;
+	top:0%;
+	width:100%;
+	height:2%;
+	z-index:6;
+}
+
+#content {
+	clear: left;
+	width: 740px;
+	padding: 10px;
+	min-height: 100px;
+	height: auto !important;
+	height: 250px;
+	border-width: 0 1px 1px 1px;
+	border-top: solid 1px;
+	border-style: solid;
+}
+
+
+
+INPUT.orenge {
+	font-family: MS Sans Serif, sans-serif; 
+	BORDER-RIGHT: #ff9900 1px solid; 
+	BORDER-TOP: #ff9900 1px solid; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: #faf2e6; 
+	BORDER-LEFT: #ff9900 1px solid; 
+	COLOR: #333333; 
+	BORDER-BOTTOM: #ff9900 1px solid;
+}
+
+INPUT.blue {
+	font-family: MS Sans Serif, sans-serif; 
+	BORDER-RIGHT: #0099FF 1px solid; 
+	BORDER-TOP: #0099FF 1px solid; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: #E0FFFF; 
+	BORDER-LEFT: #0099FF 1px solid; 
+	COLOR: #333333; 
+	BORDER-BOTTOM: #0099FF 1px solid;
+}
+
+INPUT.violet {
+	font-family: MS Sans Serif, sans-serif; 
+	BORDER-RIGHT: #686898 1px solid; 
+	BORDER-TOP: #686898 1px solid; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: #FFFFFF; 
+	BORDER-LEFT: #686898 1px solid; 
+	COLOR: #333333; 
+	BORDER-BOTTOM: #686898 1px solid;
+}
+
+TEXTAREA.orenge{
+	font-family: MS Sans Serif, sans-serif; 
+	BORDER-RIGHT: #ff9900 1px solid; 
+	BORDER-TOP: #ff9900 1px solid; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: #faf2e6; 
+	BORDER-LEFT: #ff9900 1px solid; 
+	COLOR: #333333; 
+	BORDER-BOTTOM: #ff9900 1px solid;
+}
+
+TEXTAREA.blue{
+	font-family: MS Sans Serif, sans-serif; 
+	BORDER-RIGHT: #0099FF 1px solid; 
+	BORDER-TOP: #0099FF 1px solid; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: #E0FFFF; 
+	BORDER-LEFT: #0099FF 1px solid; 
+	COLOR: #333333; 
+	BORDER-BOTTOM: #0099FF 1px solid;
+}
+
+TEXTAREA.violet {
+	font-family: MS Sans Serif, sans-serif; 
+	BORDER-RIGHT: #686898 1px solid; 
+	BORDER-TOP: #686898 1px solid; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: #FFFFFF; 
+	BORDER-LEFT: #686898 1px solid; 
+	COLOR: #333333; 
+	BORDER-BOTTOM: #686898 1px solid;
+}
+
+.BUTTON {
+	font-family: MS Sans Serif, sans-serif; 
+	BORDER-RIGHT: #ffffff 1px solid; 
+	FONT-SIZE: 11pt; 
+	BACKGROUND: #f6f6f6; 
+	COLOR: #336699; 
+	BORDER-LEFT: #ffffff 1px solid;
+ 	BORDER-BOTTOM: #ffffff 1px solid;
+}
+
+.WordtoSearch {font-size : 12pt; font-family : AngsanaUPC; color : #0000dd;}
+
+
+
+
+.INPUT {FONT-SIZE: medium; COLOR: darkblue; }
+.SELECT {FONT-SIZE: small; COLOR: darkblue; }
+
+.MAH {
+	font-size: 16px;
+	font-family: Tahoma, sans-serif, "Times New Roman";
+	font-weight: bold;
+	text-align: center;
+}
+.MA {
+	font-size: 14px;
+	font-family: Tahoma, sans-serif, "Times New Roman";
+	text-align: center;
+}
+
+/* block header/footer corner images - portal skin only */
+.tdmenblock {
+	font-size: 0px;	
+	padding: 0px;  
+	margin: 0px; 
+	vertical-align: top;
+
+	/*background-color:;
+	 class=tdmenblock alt= border=0  <<< สำคัญมาก ทำให้บล็อกไม่มีช่องว่างเว้น*/
+}
+
+
+/*พักแบคกราวน์ไว้ เพราะพื้นขาวดูดีกว่า
+body {
+	background-repeat: x-repeat;
+	background-image: url(images/Water%20lilies.jpg);
+}*/
+h1{color:#000033;font-size: x-large;font-weight: bold;text-align: center;}
+h2{color:#000033;font-size: x-large;font-weight: bold;text-align: center;}
+h3{color:#000033;font-size: x-large;font-weight: bold;text-align: center;}
+h4{color:#000033;font-size: x-large;font-weight: bold;text-align: center;}
+
+.x1 {font-size: 16px}
+.x2 {font-size: 16px}
+.HeadStyle 	{color:#000033;font-size: xx-large;font-weight: bold;text-align: center;}
+	.EndStyle 	{color:#000033;
+	font-size: x-large;
+	font-weight: bold;
+	text-align: center;}
+.BODY { FONT-SIZE: medium; FONT-WEIGHT : normal; }
+.text {font-size: 24px; color: #000000;}
+.style2 {color: #000000}
+.style1 {font-size: 16px}
+.style2 {color: #000000}
+.style3 {font-size: 12px}
+.style4 {
+	color: #330099;
+	font-weight: bold;
+	font-size: 18pt;
+}
+.bd  {font-family : tahoma,MS Sans Serif; font-size : 10pt; color : #000000;}
+h1  {font-family : tahoma,MS Sans Serif; font-size : 13pt; color : #003333;text-align : center;}
+h2  {font-family : tahoma,MS Sans Serif; font-size : 13pt; color : #003333;text-align : center;}
+h3  {font-family : tahoma,MS Sans Serif; font-size : 13pt; color : #003333;text-align : center;}
+h4  {font-family : tahoma,MS Sans Serif; font-size : 13pt; color : #003333;text-align : center;}
+.BookHead  {font-family : tahoma,MS Sans Serif; font-size : 12pt; color : #24486C;text-align : center;}
+.footnote  {font-family : tahoma,MS Sans Serif; font-size : 10pt; color : darkviolet;text-align : center;}
+.opMenu {
+	color: #666666;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+div#tipDiv {
+    color:#000; font-size:11px; line-height:1.2;
+    background-color:#E1E5F1; border:1px solid #667295; 
+    width:310px; padding:4px;
+}
+
+/*สำหรับ tips*/
+p a {
+	position: relative; 
+	/*background-color: #aac;*/
+	color: #000;
+	text-decoration: none;
+}
+
+div a {
+	position: relative; 
+	/*background-color: #aac;*/
+	color: #000;
+	text-decoration: none;
+}
+
+form a {
+	position: relative; 
+	/*background-color: #aac;*/
+	color: #000;
+	text-decoration: none;
+}
+
+a span {
+	display: none;
+}
+
+a:hover {font-size: 100%; } /* IE/Win requires some link chg on hover in order to show the tooltips */
+
+html body a:hover span { /*the span will display just on :hover state*/
+	display: block !important;
+	position: absolute;
+	/*ถ้าtop ใกล้ไปเมาส์จะแตะได้ทำให้ปิดช้า*/
+	top: 25px; 
+	right: -100%; 
+	width: 200px;
+	border: 1px solid #006699;
+	background-color: #F8F8F8; 
+	color: #000;
+	padding: 3px;
+	font-size: 16px;
+	text-align: left;
+}
+
+
+/*คลาสนี้ทำให้ผลไม่ซ้อนกัน แต่ถ้าหน้าเดียวกันมีหลายชั้นต้องใช้ไม่เหมือนกัน และเวลาใส่คลาส ต้องไล่จากเลขมากไปเลขน้อย*/
+p.takeOn4 a {z-index: 4;}
+p.takeOn3 a {z-index: 3;}
+p.takeOn2 a {z-index: 2;}
+p.takeOn1 a {z-index: 1;}
+p.takeOn0 a {z-index: 0;}
+div.takeOn5 a {z-index: 5;}
+div.takeOn4 a {z-index: 4;}
+div.takeOn3 a {z-index: 3;}
+div.takeOn2 a {z-index: 2;}
+div.takeOn1 a {z-index: 1;}
+div.takeOn0 a {z-index: 0;}
